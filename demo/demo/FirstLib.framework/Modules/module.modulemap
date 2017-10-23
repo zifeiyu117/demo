@@ -1,0 +1,6 @@
+framework module FirstLib {
+  umbrella header "FirstLib.h"
+
+  export *
+  module * { export * }
+}

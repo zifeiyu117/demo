@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B47CEDD1F9E2E8B003D7048 /* FirstLib.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD9979B1F9D843F0000C551 /* FirstLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADD997611F9D7DB50000C551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD997601F9D7DB50000C551 /* AppDelegate.m */; };
 		ADD997641F9D7DB50000C551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD997631F9D7DB50000C551 /* ViewController.m */; };
 		ADD997671F9D7DB50000C551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD997651F9D7DB50000C551 /* Main.storyboard */; };
@@ -231,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD997BF1F9D862D0000C551 /* CalculateTool.h in Headers */,
+				9B47CEDD1F9E2E8B003D7048 /* FirstLib.h in Headers */,
 				ADD997BA1F9D859F0000C551 /* CalculateTool.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -726,6 +728,7 @@
 				INFOPLIST_FILE = FirstLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = www.kaadas.com.FirstLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -748,6 +751,7 @@
 				INFOPLIST_FILE = FirstLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = www.kaadas.com.FirstLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
